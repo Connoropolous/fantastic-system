@@ -1,0 +1,18 @@
+{
+    "capability": {
+      "membrane": "agent"
+    },
+  
+    "functions": [
+      {
+          "name": "create_map",
+          "inputs": [
+            {"name": "name", "type": "string"},
+            {"name": "desc", "type": "string"}
+          ],
+          "outputs": [
+            {"name": "address", "type": "string"}
+          ]
+      }
+    ]
+  }
